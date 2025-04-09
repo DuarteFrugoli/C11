@@ -2,7 +2,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# Importando datasets
 df_paises = pd.read_csv('paises.csv', sep=';')
+df_space = pd.read_csv('space.csv', sep=';')
 
 # Mostrando as colunas de df_paises
 print(df_paises.columns)
